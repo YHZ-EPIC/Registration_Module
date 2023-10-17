@@ -8,7 +8,7 @@
     "start": "node backend/server.js",
     "server": "nodemon backend/server.js",
     "client": "npm run dev --prefix frontend",
-    "dep": "npm i && cd frontend && npm i && cd.. && cd backend && npm i && cd.. && npm run dev",
+    "dep": "npm i && cd frontend && npm i && cd backend && npm i && npm run dev",
     "dev": "concurrently \"npm run server\" \"npm run client\""
   },
   "author": "Yasir Hussain",
